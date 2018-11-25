@@ -1,8 +1,7 @@
 # MATLAB Code examples of Simulation and compuational inference for stochastic biochemical reaction networks
 
-    This repository contains useful example MATLAB functions and scripts as an introduction to 
-    stochastic simulation and computational inference methods applied to stochastic models of biochemical
-    reaction nerworks.
+This repository contains useful example MATLAB functions and scripts as an introduction to 
+stochastic simulation and computational inference methods applied to stochastic models of biochemical reaction nerworks.
 
 ## Developer
 
