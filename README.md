@@ -19,6 +19,23 @@ David J Warne, Ruth E Baker, and Matthew J Simpson. Implementations of simulatio
 and inference algorithms for stochastic reaction networks: from basic concepts 
 to state-of-the-art Journal XXXX, X:pp--pp, 2019. 
 
+## Licensing
+This source code is licensed under the GNU General Public License Version 3.
+Copyright (C) 2018 David J. Warne
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 ## Contents
 
 This folder contains a number of instructive MATLAB implementations 
@@ -74,11 +91,11 @@ Follow these steps to run the demonstrations:
 1. Start MATLAB
 2. In MATLAB browse to the repository folder Warne2018
 3. In the MATLAB command prompt, run 
-   >> init 
+   `>> init` 
    to set up the paths of all the example implementations.
 4. Type in the name of any demo script in Demonstrations/Simulation 
    or Demonstrations/Inference. For example,
-   >> DemoGillespie 
+   `>> DemoGillespie` 
    generates Fig. 1A and 1B in the paper.
 
 ## List of examples
@@ -88,55 +105,55 @@ The following list of examples shows how to reproduce the figures in the main pa
 ### Figure 1
 
 For Fig. 1A and 1B
->> DemoGillespie
+`>> DemoGillespie`
 
 For Fig. 1C and 1D
->> DemoMNRM
+`>> DemoMNRM`
 
 For Fig. 1E and 1F
->> DemoTauLeap
+`>> DemoTauLeap`
 
 For Fig. 1G
->> DemoRealisationsMichMent
+`>> DemoRealisationsMichMent`
 
 For Fig. 1H
->> DemoRealisationsMonoMol
+`>> DemoRealisationsMonoMol`
 
-To obtain Fig. 1I (resp. Fig. 1J), edit DemoRealisationsMichMent.m 
-(resp. DemoRealisationsMonoMol.m) and change 
-N to 100 (line 17) and alpha to 0.05 (line 24), and re-run the script.
+To obtain Fig. 1I (resp. Fig. 1J), `edit DemoRealisationsMichMent.m` 
+(resp. `DemoRealisationsMonoMol.m`) and change 
+`N` to `100` (line 17) and `alpha` to `0.05` (line 24), and re-run the script.
 
 ### Figure 2
 
 For mean and variance plot in Fig. 2A 
->> DemoCMEMeanVar
+`>> DemoCMEMeanVar`
 
 To plot stationary distribution in F. 2B and the full CME solution
 in Fig. 2C--2F run (Warning! this will take about 10 minutes)
->> DemoStationaryDist
+`>> DemoStationaryDist`
 
 ### Figure 3
 
 For Fig. 1A
->> DemoCorTauLeap
+`>> DemoCorTauLeap`
 
 For Fig. 1B (Warning! takes about 24 hours)
->> DemoMonteCarlo
+`>> DemoMonteCarlo`
 
 ### Figure 4
 
 For Fig. 4A--4C (Warning! takes about 2.5 hours)
->> DemoABCConvergence
+`>> DemoABCConvergence`
 
 ### Figure 5
 
 For Fig. 5A--5N (Warning! takes about 3.5 hours)
->> DemoABCprocess
+`>> DemoABCprocess`
 
 ### Figure 6 and tables 1 and 2
 
 For Fig. 6A--6C and table 1 (Warning! takes about 5 hours) 
->> DemoABCMethodsMonoMol
+`>> DemoABCMethodsMonoMol`
 
 For Fig. 6D--6F and table 2 (Warning! takes about 1.5 hours)
->> DemoABCMethodsMichMent
+`>> DemoABCMethodsMichMent`
