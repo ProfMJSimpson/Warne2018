@@ -40,7 +40,7 @@ Copyright (C) 2018 David J. Warne
 This folder contains a number of instructive MATLAB implementations 
 for Stochastic simulation and computational inference. Demonstration scripts
 showing typical usage are also provided
-
+```bash
 The directory structure is as follows
 |-- init.m                                  adds all functions to MATLAB Path
 |-- Functions
@@ -82,7 +82,7 @@ The directory structure is as follows
         |-- DemoABCProcess.m
         |-- DemoABCMethodsMonoMol.m
         |-- DemoABCMethodsMichMent.m
-
+```
 ## Usage
 
 Follow these steps to run the demonstrations:
