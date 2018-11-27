@@ -5,10 +5,10 @@ stochastic simulation and computational inference methods applied to stochastic 
 
 ## Developer
 
-David J. Warne (david.warne@qut.edu.au) \newline
-                School of Mathematical Sciences \newline
-                Science and Engineering Faculty \newline
-                Queensland Univeristy of Technology \newline
+David J. Warne (david.warne@qut.edu.au),
+                School of Mathematical Sciences, 
+                Science and Engineering Faculty, 
+                Queensland Univeristy of Technology 
 
 ## Citation Information
 
