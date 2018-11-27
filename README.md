@@ -1,7 +1,7 @@
-# MATLAB Code examples of Simulation and compuational inference for stochastic biochemical reaction networks
+# MATLAB Code Examples of Simulation and Compuational Inference for Stochastic Biochemical Reaction Networks
 
 This repository contains useful example MATLAB functions and scripts as an introduction to 
-stochastic simulation and computational inference methods applied to stochastic models of biochemical reaction nerworks.
+stochastic simulation and computational inference methods applied to stochastic models of biochemical reaction networks.
 
 ## Developer
 
@@ -42,9 +42,9 @@ for Stochastic simulation and computational inference. Demonstration scripts
 showing typical usage are also provided
 ```bash
 The directory structure is as follows
-|-- init.m                                  adds all functions to MATLAB Path
+|-- init.m                                  Adds all functions to the MATLAB Path
 |-- Functions
-    |-- BCRN_Definition                     creation of BCRN structures
+    |-- BCRN_Definition                     Creation of BCRN data structures
         |-- MichaelisMenten.m
         |-- MonoMolecularChain.m
     |-- Simulation                          ESSA and ASSA methods and Monte Carlo
