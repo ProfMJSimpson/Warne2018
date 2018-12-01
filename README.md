@@ -9,6 +9,8 @@ David J. Warne (david.warne@qut.edu.au),
                 School of Mathematical Sciences, 
                 Science and Engineering Faculty, 
                 Queensland Univeristy of Technology 
+                
+Google Scholar: (https://scholar.google.com.au/citations?user=t8l-kuoAAAAJ&hl=en)
 
 ## Citation Information
 
