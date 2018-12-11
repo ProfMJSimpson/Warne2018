@@ -16,9 +16,9 @@ Google Scholar: (https://scholar.google.com.au/citations?user=t8l-kuoAAAAJ&hl=en
 
 This code is provided as supplementary information to the paper,
 
-David J Warne, Ruth E Baker, and Matthew J Simpson. Implementations of simulation 
-and inference algorithms for stochastic reaction networks: from basic concepts 
-to state-of-the-art Journal XXXX, X:pp--pp, 2019. 
+David J Warne, Ruth E Baker, and Matthew J Simpson. Simulation and inference 
+algorithms for stochastic biochemical reaction networks: from basic concepts 
+to state-of-the-art. ArXiv pre-print, TBA. 
 
 ## Licensing
 This source code is licensed under the GNU General Public License Version 3.
