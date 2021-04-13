@@ -1,5 +1,5 @@
 %% Demonstration of Direct application of Bayes' theorem using
-%  the solution to the Chemical Master Equation. 
+%  the solution to the Chemical Master Equation.
 %
 % NOTE: This approach is not accurate without a very find grid
 %       to enable computation of the evidence.
@@ -12,11 +12,15 @@
 % initialise random number generator for reproducibility
 rng(513,'twister');
 
-% generate data from discrete sampling of a single realisation, 
+% generate data from discrete sampling of a single realisation,
 % no observation error
-[monomol] = MonoMolecularChain([1.0;0.1;0.05],[100;0]);
+k_true = [1.0;0.1;0.05];
+X0 = [100;0];
 t = [0;25;50;75;100];
-Y_obs = GenerateObservations(monomol,1,[1;2],t,0);
+[monomol] = MonoMolecularChain(k_true,X0);
+
+% assume no observation error for now.
+Y_obs = GenerateObservations(monomol,k_true,X0,1,[1;2],t,0);
 
 % create uniform joint prior
 kmax = [2;0.2;0.1];
@@ -64,4 +68,3 @@ hold on;
 plot(ks(1,:),squeeze(Pm1),'--b');
 plot(ks(2,:),squeeze(Pm2),'--r');
 plot(ks(3,:),squeeze(Pm3),'--k');
-
